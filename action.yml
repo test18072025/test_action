@@ -1,0 +1,10 @@
+name: "Saludo"
+description: "Saludo simple"
+inputs:
+  name:
+    description: "Nombre de la persona que saluda"
+    required: true
+runs:
+  using: "node20"
+  main: "dist/index.js"
+
