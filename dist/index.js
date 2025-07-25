@@ -27558,7 +27558,7 @@ var __webpack_exports__ = {};
 const core=__nccwpck_require__(7484);
 try {
     const name= core.getInput('name');
-    console.log('Hola ${name}');
+    console.log(`Hola ${name}`);
 } catch (error) {
     core.setFailed(error.message);
 }
